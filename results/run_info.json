@@ -1,0 +1,31 @@
+{
+  "rows": 4187747,
+  "symbols": 8532,
+  "bars": 704,
+  "train_rows": 3558457,
+  "test_rows": 629290,
+  "test_bars": 107,
+  "test_symbols": 7675,
+  "clip_lower": -0.020010874848812817,
+  "clip_upper": 0.01853643525391816,
+  "zero_target_share": 0.17119610990163517,
+  "features": 21,
+  "best_model": "linear_regression",
+  "execution_config": {
+    "q": 0.02,
+    "no_trade_zone": 0.75,
+    "rho": 1.0
+  },
+  "fit_seconds": {
+    "linear_regression": 16.3,
+    "ridge": 13.1,
+    "lasso": 15.1,
+    "elastic_net": 14.9,
+    "huber": 5.9,
+    "random_forest": 44.5,
+    "hist_gradient_boosting": 19.6
+  },
+  "panel_rows": 6153855,
+  "panel_symbols": 9368,
+  "panel_bars": 836
+}

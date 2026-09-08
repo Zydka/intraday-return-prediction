@@ -1,0 +1,99 @@
+{
+  "args": {
+    "symbols": 3000,
+    "sequence_length": 12,
+    "attention_sequence_length": 12,
+    "hidden": 128,
+    "dropout": 0.2,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "epochs": 15,
+    "patience": 3,
+    "batch_size": 4096,
+    "seed": 42
+  },
+  "prediction": {
+    "rmse": {
+      "lstm": 0.002784052205044864,
+      "attention_lstm": 0.002793750951843367
+    },
+    "mae": {
+      "lstm": 0.0016865715478077757,
+      "attention_lstm": 0.0016967936996282677
+    },
+    "r2": {
+      "lstm": -0.015181695009377938,
+      "attention_lstm": -0.02226715147873759
+    },
+    "ic_pooled": {
+      "lstm": -0.009074703783709663,
+      "attention_lstm": -0.0035422024770053826
+    },
+    "ic_cross_sectional": {
+      "lstm": 0.013612261703636077,
+      "attention_lstm": 0.004775079546524927
+    },
+    "ic_t_stat": {
+      "lstm": 1.1312767265737842,
+      "attention_lstm": 0.4390075316639122
+    },
+    "hit": {
+      "lstm": 0.4968188622754491,
+      "attention_lstm": 0.5073654773785762
+    },
+    "n_timestamps": {
+      "lstm": 74,
+      "attention_lstm": 74
+    },
+    "validation_mse": {
+      "lstm": 7.847887900425121e-06,
+      "attention_lstm": 7.919846211734693e-06
+    }
+  },
+  "portfolio": {
+    "periods": {
+      "lstm": 74,
+      "attention_lstm": 74
+    },
+    "gross_bps": {
+      "lstm": 0.1802666670034528,
+      "attention_lstm": -0.008654278187620844
+    },
+    "net_bps": {
+      "lstm": -6.70689549515871,
+      "attention_lstm": -5.425320944854288
+    },
+    "turnover": {
+      "lstm": 1.3774324324324325,
+      "attention_lstm": 1.0833333333333333
+    },
+    "sharpe_per_bar": {
+      "lstm": -1.4307441503923268,
+      "attention_lstm": -1.369464825341807
+    },
+    "sharpe_annual": {
+      "lstm": -140.00838552562735,
+      "attention_lstm": -134.01177224989195
+    },
+    "t_stat_net": {
+      "lstm": -12.307726555593348,
+      "attention_lstm": -11.780581869363944
+    },
+    "cumulative_net": {
+      "lstm": -0.0484430226396424,
+      "attention_lstm": -0.03936812286101565
+    },
+    "max_drawdown": {
+      "lstm": -0.04802152722629516,
+      "attention_lstm": -0.03867041140119443
+    },
+    "losing_bars": {
+      "lstm": 0.9594594594594594,
+      "attention_lstm": 0.9324324324324325
+    },
+    "breakeven_bps": {
+      "lstm": 0.1308715133744286,
+      "attention_lstm": -0.007988564480880781
+    }
+  }
+}
