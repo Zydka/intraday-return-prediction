@@ -1,0 +1,17 @@
+# Core pipeline: experiments/01_build_panel.py and 02_run_analysis.py
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+matplotlib>=3.7
+
+# Sequence models: experiments/03_train_deep_learning.py
+torch>=2.0
+
+# Econometric baselines in src/models/time_series_models.py
+statsmodels>=0.14
+
+# Optional. src/models/baseline_models.py adds LightGBM to the model set when
+# it is importable and skips it otherwise; the committed results were produced
+# without it.
+lightgbm>=4.0
